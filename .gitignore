@@ -1,0 +1,71 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+*.tgz
+*.zip
+*.tar
+*.rar
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+# If you use a different database, add the appropriate files, e.g.
+# postgresql/.pgpass
+
+# Static and media files
+/static/
+/media/
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Coverage reports
+.coverage
+.coverage.*
+*.cover
+
+# Test reports
+nosetests.xml
+coverage.xml
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# Django migrations (optional)
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# SQLite databases (if used)
+*.sqlite3
+
+# System files
+*.swp
+*~
